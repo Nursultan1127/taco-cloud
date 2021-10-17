@@ -1,0 +1,25 @@
+server:
+  port: 8443
+  ssl:
+  key-store: file://D://taco-cloud1//mykeys.jks
+  key-store-password: letmein
+  key-password: letmein
+
+
+spring.datasource:
+  url: jdbc:postgresql://localhost:5432/mydb
+  username: postgres
+  password: Madinka1127
+#  driverClassName: org.postgresql.Driver
+
+taco:
+  orders:
+    pageSize: 10
+
+logging:
+  level:
+    tacos: DEBUG
+
+#spring:
+#  thymeleaf:
+#    cache: true
